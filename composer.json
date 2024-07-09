@@ -1,0 +1,22 @@
+{
+	"name":"bomber-net/sockets",
+	"type":"library",
+	"license":"MIT",
+	"minimum-stability":"dev",
+	"version":"0.0.0",
+	"require":{
+		"php":">=8.2",
+		"ext-sockets":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"BomberNet\\Sockets\\":"src/"
+		}
+	},
+	"authors":[
+		{
+			"name":"bomber-net",
+			"email":"bomber-net@mail.ru"
+		}
+	]
+}
